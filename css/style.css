@@ -1,0 +1,1066 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+ body {
+    font-family: 'varela round' , sans-serif;
+}
+.pd-y {
+padding: 120px 0;
+}
+.clear{
+    clear: both;
+}   
+a {
+    text-decoration: none;
+ }
+.mh{
+ padding: 0 0 0 10px;
+}
+.pd-y {
+ padding:120px 0;
+}
+
+.service-item .section-header{
+ text-align:left;
+}
+
+.service-item .section-header .line{
+ margin: 0 0 45px 0;
+}
+
+.section-header .section-title5 {
+ font-size: 35px;
+ text-transform: capitalize;
+ margin-bottom: 9px;
+ margin-top: 6px;
+ text-align: left;
+}
+
+.section-header .line{
+ display: block;
+ width: 62px;
+ height: 4px;
+ background-color: royalblue;
+margin: 0  auto  70px  auto;
+}
+.section-title{ /* h2 */
+font-size: 35px;
+text-transform: capitalize;
+margin-bottom: 9px;
+margin-top: 6px;
+text-align: center;
+}
+.section-header-about .line{
+    display: block;
+    width: 62px;
+    height: 4px;
+    background-color: #f14c2e;
+    margin: 0  auto  70px  auto;
+    }
+    
+/*======== navbar 1 */
+.header {
+    width:100%;
+    position: fixed;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, .5);
+}
+.header h2{
+    width: 30%;
+    font-family: Poppins, sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+    float: left;
+}
+.header .title-logo{
+    color: #ed563b;
+}
+.header .title-logo1{
+    color: #fff;
+}
+.nav{
+    width:70%;
+    float: left;
+    text-align: right;
+}
+.nav li{
+    list-style: none;
+    display: inline-block;
+}
+.nav li a{
+    display: block;
+    text-decoration: none;
+    font-weight: 600;
+    color: #ed563b;
+    padding:12px; 
+}
+.button-nav-btn{
+    padding: 10px;
+    border: none;
+    background: #ed563b;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 5px;
+}
+.button-nav-btn{
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    background: #ed563b;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 5px;
+}
+.button-nav-btn a{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+    font-size: 15px;
+}
+.button-nav-btn a:hover{
+    color: #232323fa;
+}
+.button-nav-btn:hover{
+    background-color: #f59786;
+}
+
+.header-content .nav li a:after ,
+.header-content .nav  li a.active:after{
+    content:"";
+    width:0;
+    height:3px;
+    display: block;
+    background-color: rgba(249, 156, 120, 0.367);
+    margin-top: 2px;
+    transition: .5s;
+}
+.header-content .nav li a.active:after{
+    width:100%;
+}
+.header-content .nav li a:hover:after{
+    width: 100%;
+}
+ /** End Navbar ///////*/
+
+ /** Start Main-title*/
+.main{
+    width: 100%;
+    height: 100vh;
+    background: url(../imge/pexels-anush-gorak-1229356.webp) no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;  
+}
+.section{
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(8, 7, 7, 0.623);
+    
+}
+.main-title{
+    width: 70%; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 55px;
+}
+.text-EASY{
+    width: 60rem;
+    color: #fff;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Carter One, cursive';
+}
+.text-gym{
+    color: #ed563b;
+}
+.main .btn {
+    min-width: 150px;
+    padding: 15px 0;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 50px;
+}
+.btn1 {
+    margin-right: 10px;
+    margin-left: 330px;
+}
+.btn2{
+   background-color: #ed563b;
+   color: cornsilk;
+}
+.hover-opacity:hover{
+    opacity: 0.7;
+}   
+
+/*End Main-title //////////////////////////*/
+
+/** Start Main-card */
+.main-card{
+    margin-top: 50px;
+}
+.Bowers-title{
+    display: block;
+    text-align: center;
+}
+#text-EXPERT{
+    display: block;
+    text-align: center;
+    font-size: 60px;
+    font-family: Poppins, sans-serif;
+
+}
+.text-TRAINERS{
+    color: #ed563b;
+    font-family: Poppins, sans-serif;
+}
+.img-title {
+    display: block;
+    width: 80px;
+    margin: 20px auto;
+}
+
+.Bowers-text2{
+    display: block;
+    width: 50%;
+    color: #999;
+    text-align: center;
+    margin: auto;
+    padding:0 0 50px 0;
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: 750;
+}
+.pricing{
+    position: relative;
+    margin-top: 40px;
+}
+
+.card2{
+    margin: 0 50px;
+}
+.Bowers-item{
+    display: block;
+    float: left;
+    width: 30%;
+    padding: 22px 15px;
+    cursor: pointer;
+    border-bottom-right-radius: 15%;
+    border-top-left-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.26);
+    text-align: center;
+    transition: 1.2s;
+}
+.Bowers-item:hover{
+    background-color: rgba(179, 177, 177, 0.637); 
+}                      
+
+.Bowers-item .Bowers-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin:15px auto;
+    box-shadow: -5px -5px 30px 5px #858282;
+}
+.Bowers-title{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: 750;
+}
+.Bowers-text{
+    display: block;
+    width: 290px;
+    color: #7e7c7c;
+    line-height: 1.2;
+    margin: 12px 0;
+    font-weight: 600;
+}
+.Bowers-item-btn{
+    border: 2px solid #ed563b75;
+    margin: auto;
+    padding: 5px;
+    display: block;
+    width: 160px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: 1s;
+    background-color: #ed563b;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    position: relative;
+    overflow: auto;
+}
+.Bowers-item-btn a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 750;
+    font-size: 18px;
+}
+
+.Bowers-item-btn a:hover{
+    color: #240706a8;
+}                      
+
+/* ==================== */
+
+
+ /* 3 card ABOUT ====================== */  
+    .about{
+        margin-top: 500px;
+    }
+    .about-content{
+    text-align: center;
+    height: 350px;
+    overflow: auto;
+    }
+    .about-item {
+    width: 30%;
+    float: left;
+    text-align: center;
+    border:1px solid  #888;
+    padding: 30px 15px;
+    }
+    .about-item.mg{
+    margin: 0 5%;
+    }
+    
+    .icon{ 
+    color: #f7753a;
+    margin-bottom: 10px;
+   
+    }
+    .about-item-title {
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    transition: color .5s;
+    }
+    .about-content p {
+    letter-spacing: 2px;
+    line-height: 22px;
+    margin-bottom: 15px;
+    color:#899;
+    }
+    .about-item-link {
+    color: #3e3d3d;
+    text-transform: capitalize;
+    border-radius: 10px;
+    background-color: #ed563ba2;    }
+    .about-item a{
+    text-decoration: none;
+    font-weight: 750;
+    padding: 5px 15px;
+    }
+    .about-item a:hover{
+    background-color: #fa7e20;
+    }
+    .about-item:hover .about-item-title{
+    color: #fff;
+    transition: color 1s;
+    }
+    
+    .ltr{
+    position: relative;
+    }
+    .ltr:after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top:0;
+    left:0;
+    background-color: #333; 
+    }
+    .ltr:hover:after{
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+    z-index: -1;
+    }
+    /* ================================================ */
+    
+
+    /* 3.3 PORTFOLIO SECTION*/
+    /* الجد */
+    .portfolio {
+    background-color: #e8e8e8;
+    }
+    /* الاب */
+    .portfolio-content{
+    overflow: auto;
+    }
+/* الابن */
+.portfolio-item{
+width: 30%;
+float: left;
+margin-bottom: 20px;
+position: relative;
+padding:20px;
+
+}
+.portfolio-item img{
+width: 100%;
+height: 250px;
+border-radius: 5px;
+}
+.portfolio-item .mg {
+margin: 0 5%;
+}
+
+    
+    /* حدث */
+    .portfolio-item .layer-content{
+    position: absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    background-color: rgba(0,0,0,0.7);
+    opacity: 0;
+    visibility: hidden;
+    transition:opacity 1s;
+    }
+    .portfolio-item:hover .layer-content{
+    opacity:1;
+    visibility: visible;
+    border-radius: 10px;
+    }
+    
+    /* حدث بيظهر نص */
+    .layer-content .layer-info{
+    position: absolute;
+    left:50%;
+    top:50%;
+    width: 80%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    }
+    .layer-content .category {
+    color:#f7753a;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 5px;
+    position: relative;
+    top: 15px;
+    opacity: 0;
+    visibility: hidden;
+    transition: top 1s ,opacity .5s;
+    transition-delay: 0;
+    }
+    .layer-content-title{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+    position: relative;
+    top: 15px;
+    opacity: 0;
+    visibility: hidden;
+    transition: top 1s ,opacity .5s;
+    transition-delay: .4s;
+    }
+    .layer-content a  {
+    display: inline-block;
+    width:40px;
+    height: 40px;
+    background-color: #f7753a;
+    position: relative;
+    top:15px;
+    opacity: 0;
+    visibility: hidden;
+    transition: top 1s ,opacity .5s;
+    transition-delay: .6s;
+    }
+    .portfolio-item:hover .layer-content-title,
+    .portfolio-item:hover .layer-content a,
+    .portfolio-item:hover .layer-content .category{
+    top:0;
+    opacity: 1;
+    visibility: visible;
+    }
+    .layer-content a i{
+    line-height: 40px;
+    color: #f5d4c7;
+    }
+    
+    /* ============= */
+    
+    
+    .section-header .line{
+     display: block;
+     width: 62px;
+     height: 4px;
+     background-color: #f7753a;
+    margin: 0  auto  70px  auto;
+    }
+    
+    .ltr{
+     position: relative;
+    }
+    .ltr:after{
+     position: absolute;
+     content: "";
+     width: 0;
+     height: 0;
+     top:0;
+     left:0;
+     background-color: #333; 
+    }
+    .ltr:hover:after{
+     width: 100%;
+     height: 100%;
+     transition: .5s;
+     z-index: -1;
+      }
+    
+    
+    /* 3.4 OFFER SECTION........................................................................................ */
+    .offer-content {
+     overflow: hidden;
+    }
+    .offer-item{
+     width:30%;
+     float: left;
+     margin-bottom: 20px;
+     border: 1px solid #a8a8a8 ;
+     padding: 30px 15px 30px 70px;
+     position: relative;
+    }
+    .offer-item.mg{
+     margin: 0%  5%;
+    }
+    .offer-item .icon{
+     position: absolute;
+     left:15px;
+     top:26px;
+     color:#87bef8;
+    }
+    .offer-item-title {
+     text-transform: capitalize;
+     margin-bottom: 15px;
+     transition: 1s;
+    }
+    .offer-item-desc {
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    line-height: 1.6;
+    color: #999;
+    }
+    .offer-item.ltr:hover .offer-item-title{
+      color: #fff;
+    }
+    
+    .icon.fa-gem{
+     font-size: 30px;
+    }
+    .icon.fa-pencil-alt{
+     font-size: 30px;
+    }
+    
+    /* ============= */
+
+    
+    
+    
+    /* 3.5 SERVICE SECTION........................................................................................ */
+    .service {
+     background-color: #f9f9f9;
+     margin-top: 300px;
+    }
+    .service-item{
+     width:50%;
+     float:left;
+    
+    }
+    .clear {
+     clear: both;
+    }
+    .service-item .section-header{
+     text-align:left;
+    }
+    .service-item .section-header .line{
+     margin: 0 0 45px 0;
+    }
+    .service-item-desc{
+     padding-right: 20px;
+     color:#999;
+     line-height: 1.4;
+     font-size: 18px;
+     margin-bottom: 20px;
+    }
+    .service-list {
+     list-style: none;
+    }
+    .service-list li i {
+     border: 1px solid #ed563b;
+     color: #ed563b;
+     padding: 3px;
+     border-radius: 50%;
+     width: 20px;
+     height:20px;
+    }
+    .service-list li{
+     margin-bottom: 13px;
+     color: #999;
+    }
+    .klo {
+     width: 480px;
+     height: 400px;
+     border-top-left-radius: 25px;
+     border-bottom-right-radius: 35px;
+    }
+    .service-bullets{
+     list-style: none;
+     text-align: center;
+    }
+    .service-bullets li{
+     width:10px;
+     height:10px;
+     display: inline-block;
+     background-color: #a8a8a8;
+     margin: 10px 5px;
+     border-radius: 50%;
+    }
+    .service-bullets li.active{
+     background-color: #ed563b;
+    }
+    .service-bullets li:hover{
+     background-color: #ed563b;
+    }
+    
+    /* 3.7 PRICING SECTION....................................................................................... */
+    #h1{
+        margin-left: 370px;
+        margin-top: 100px;
+    }
+    .p1 {
+        display: block;
+        width: 60px;
+        border: 2px solid rgb(221, 80, 24);
+        margin: auto;
+        margin-top: 10px;
+    }
+    .pricing{
+        position: relative;
+        margin-top: 40px;
+    }
+    
+    .pricing-item   {
+        float: left;
+         width: 30%;
+         padding:30px 15px;
+        background-color: rgba(242, 184, 148, 0.111);  
+         border: 1px solid rgb(180, 179, 179);
+         text-align: center;
+         position: relative; 
+         transition: 1.2s;
+        } 
+    .pricing-item:hover{
+        background-color: rgba(190, 135, 125, 0.361); 
+    }                      
+    
+    .pricing-item-text{
+        text-transform: uppercase;
+        font-size:17px;
+        color: #fb974e;
+    }    
+    .pricing-item-month{
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 2px solid rgb(205, 187, 176);
+      padding: 12px 0;
+      margin: 20px auto;
+    }
+    
+    .pricing-list{
+        list-style: none;
+    }
+    
+    .pricing-list li{
+        color: #5e6670;
+        line-height: 1.8;  
+    }
+    .pricing-list li:hover{
+       color: rgb(249, 119, 5);
+       cursor: pointer;
+    }
+    
+    .doller{
+        font-size: 40px;
+    }
+    .month1{
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .pricing-itom-btn{
+        border: 2px solid #f1a46c;
+        margin: auto;
+        padding: 5px;
+        display: block;
+        width: 120px;
+        cursor: pointer;
+        margin-top: 15px;
+        transition: 1s;
+    }
+    .pricing-itom-btn:hover{
+        background: #f58856;
+        color: rgb(17, 25, 36);
+    }
+    .mg{
+        margin: 0 5%;
+    }
+    
+    .pricing-item:hover .pricing-item-text{
+        color: rgb(247, 137, 3);
+    }
+    .pricing-item:hover .pricing-item-month{
+        color: rgb(247, 137, 3);
+    }
+    
+    /* ================== */
+    .testimonial{
+        margin-top: 350px;
+    }
+    a {
+        text-decoration: none;
+     }
+ 
+     .overlay {
+         position: absolute;
+         width: 100%;
+         height: 100%;
+         top: 0;
+         left: 0;
+         background-color: rgba(0, 0, 0, 0.034)
+     }
+    
+    
+    
+    /* 3.6 NUMBERS SECTION......................................................................................... */
+    .numbers {
+     position: relative;
+     background-image: url(../imge/pexels-anush-gorak-1229356.webp);
+     height:350px;
+     background-size: cover;
+     background-attachment: fixed;
+    }
+    .numbers-items{
+     overflow:hidden;
+     padding-top: 130px;
+    }
+    .number-item {
+     width: 25%;
+     float: left;
+     text-align:center;
+    }
+    .number-item .icon{
+     color:#6195ff;
+     margin-bottom: 15px;
+    }
+    .number-item-title{
+     font-weight: bold;
+     font-size: 30px;
+     color: #fff;
+    }
+    .number-item-text {
+     color: #fff;
+    }
+    
+    /* ======================= */
+
+    .overlay {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     top: 0;
+     left: 0;
+     background-color: rgba(0, 0, 0, 0.034)
+    }
+    
+    /* 3.8 TESTIMONIAL SECTION.....................................................................................*/
+    .testimonial {
+      position: relative;
+      background-image: url(../imge/Lifting-light-weights-from-cancer-exercises.jpg);
+      background-attachment: fixed;
+      background-size: cover;
+      height: 350px;
+    }   
+    .testimonial-content{
+      overflow: hidden;
+      width: 90%;
+      margin: auto;
+    }
+    .testimonial-item {
+      float: left;
+      width: 50%;
+      color: #fff;
+      padding-right: 20px;
+      padding-top: 55px;
+      margin-bottom: 110px;
+    }
+    .testimonial-toplayer{
+     padding:90px 20px 10px 150px;
+     position:relative;
+     line-height: 1.4;
+     margin-bottom: 20px;
+    }
+    .testimonial-toplayer img{
+     position: absolute;
+     top: 82px;
+     left: 65px;
+     border-radius: 50%;
+    }
+    .testimonial-desc{
+     text-transform: capitalize;
+     line-height: 1.5;
+     margin-left: 76px;
+     font-size: 14px;
+    }
+    .testimonial-toplayer span{
+     color: #6195ff;
+    }
+
+    /* 3.9 TEAM SECTION......................................................................................... */
+    .team-content{
+     overflow: hidden;
+     padding-left: 70px;
+    }
+    .team-item{
+     display: block;
+     float: left;
+     width: 28%;
+     background-color: #d1caca;
+     padding: 17px 13px;
+     text-align: center;
+     position: relative;
+    }
+    .team-img{
+     width: 90%;
+     margin: auto;
+     position: relative;
+    }
+    .team-overlay{
+     position: absolute;
+     top:0;
+     right:0;
+     bottom: 0;
+     left: 0;
+     background-color: rgba(0, 0, 0, .5);
+     visibility: hidden;
+     opacity:0;
+    }
+    .team-item:hover .team-overlay{
+     visibility: visible;
+     opacity: 1;
+    }
+    .team-overlay a {
+     display: block;
+     width: 40px;
+     height:40px;
+     background-color: #7ba7ff;
+     color:#fff;
+     margin-left: auto;
+    }
+    .team-overlay a i{
+     line-height: 40px;
+    }
+    .team-info-title{
+     color:#222;
+     padding:10px 0;
+    }
+    .team-info-text{
+     color:#999;
+     text-transform: uppercase;
+     font-size: 14px;
+    }
+    .team-item.mg{
+     margin: 0 5%;
+    }
+    .team-img img{
+     width: 100%;
+    }
+    .team-item:after{
+     position: absolute;
+     content: "";
+     width: 100%;
+     height: 0;
+     top:0;
+     left: 0;
+     background-color: #333;
+     opacity: 0;
+    }
+    .team-item:hover:after{
+     width: 100%;
+     height: 100%;
+     opacity:.4;
+     transition: 1s;
+    }
+    .team-item:hover .team-info-title{
+     color:#fff;
+     transition:  .5s;
+    }
+    .team-item:hover .team-info-text{
+     color: blue;
+     transition: 1s;
+    }
+    
+   /* 3.10 BLOG SECTION........................................................................................ */
+   .blog, .blog-content{
+     overflow: hidden;
+     background-color: #f0efef;
+     height: 100vh;
+    }
+    .blog-item{
+     float: left;
+     width: 30%;
+     background-color: #fff;
+     position: relative;
+    }
+    .blog-item-img{
+     width: 95%;
+     margin-left: 23px;
+    }
+    #imgs{
+     width: 90%;
+     height: 250px;
+     margin: 10px auto;
+    }
+    .blog-list{
+     list-style: none;
+     margin: 10px 0;
+    }
+    .blog-list li{
+     display: inline-block;
+     font-size: 12px;
+     margin: 0 5px;
+    }
+    .blog-list li  i{
+     color: #6195ff;
+    }
+    .blog-info{
+     padding: 20px;
+    }
+    .blog-title{
+     font-weight: bold;
+     margin: 20px 0;
+     margin-bottom: 25px;
+    }
+    .blog-desc{
+     color: #999;
+     margin-bottom: 20px;
+     line-height: 1.5;
+    }
+    .blog-link{
+     color: #6195ff;
+    }
+    .blog-item.mg{
+     margin: 0 5%;
+    }
+    .blog-item:after{
+     position: absolute;
+     content: "";
+     width: 100%;
+     height: 0;
+     top: 0;
+     left: 0;
+     right: 0%;
+     bottom: 0;
+     transition: 1s;
+     opacity: 0;
+     background-color: #6195ff;
+    }
+    .blog-item:hover:after{
+     width: 100%;
+     height: 100%;
+     opacity: .5;
+    }
+    
+    
+    /* ===================== */
+    
+    /* FOOTER SECTION */
+    
+    .img-footer{
+        width: 160px;
+        height: 70px;
+    }
+    .br{
+        display: block;
+        border: 2px solid black;
+    }
+    
+    .footer{/* الاب */
+        background-color: #666768;
+        text-align: center;
+        height: 300px;
+        padding: 60px 0;
+    }
+    .footer-links{/* بدايه اللينك */
+        list-style: none;
+        margin: 20px 0;
+    }
+    .footer-links li{
+        display: inline-block;
+        background-color: #6195ff;
+        width:50px;
+        height: 50px;
+        position: relative;
+        z-index: 1;
+        border-radius: 50%;
+    }
+    .footer-links li a{
+        display: block;
+        width:100%;
+        height: 100%;
+        text-decoration: none;
+        color: #fff;
+        line-height: 50px;
+        padding-right: 15px; 
+        font-size: 23px;
+        margin: 0 8px;
+    }
+    
+    /* عمل حدث */
+    .footer-links li:after{
+          content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0;
+        transition: .3s;
+        background-color: #0954ec;
+    }
+    .footer-links li:hover:after{
+        opacity: .7;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        border-radius: 50%;
+    }
+    
+    
+    .footer p{
+        color:#999;
+        font-size: 12px;
+        text-transform: uppercase;
+    }
